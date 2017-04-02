@@ -1,0 +1,17 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "The Snake Game",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --port 3000 --inline --hot --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Artem Brezhnev",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.28.0",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
